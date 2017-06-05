@@ -161,7 +161,7 @@
     
   
     
-      <div class="recent-post-item lazy"  data-original="/images/random/vateral-5.png"  >
+      <div class="recent-post-item lazy"  data-original="/images/random/vateral-6.png"  >
         <a class="recent-post-link" href="/2017/05/27/hello-world/">
         <div class="post-hover">
           <!--title-->
@@ -222,6 +222,84 @@
 
   </div>
 </div>
+
+<style type="text/css">
+        html,body{
+            font-family: sans-serif;
+            font-weight: 300;
+            background-color: #E9EBEC!important;
+        }
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: url(/fonts/MaterialIcons-Regular.eot);
+            src: url(/fonts/MaterialIcons-Regular.woff2) format('woff2'),
+            url(/fonts/MaterialIcons-Regular.woff) format('woff'),
+            url(/fonts/MaterialIcons-Regular.ttf) format('truetype')
+        }
+        #live2dcanvas{
+        width: 120px ;
+        height: 240px;
+        left: 0;
+        bottom: -30px!important;
+        }
+        #live2dcanvashover{
+          width: 100px ;
+          height: 200px;
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          z-index: 1000;
+          cursor: Pointer;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -khtml-user-select: none;
+          -ms-user-select: none;
+        }
+        .statmentarea{
+          width: auto;
+          height: auto;
+          position: fixed;
+          bottom: 170px;
+          left: 15px;
+          z-index: 999;
+        }
+        .statmentsbox{
+          max-width:200px;
+          min-width: 120px;
+          height:auto;
+          min-height: 30px;
+          background-color: #ffffff;
+          border-radius: 8px;
+          box-shadow: 1px 1px 4px #b0b0b0;
+          text-align: center;
+          padding: 5px;
+          display: none;
+          margin-bottom: 5px;
+        }
+          @media only screen and (max-width: 768px){
+            #live2dcanvas,#live2dcanvashover{
+              width: 80px ;
+              height: 160px;
+              left: 180px;
+            }
+            .statmentarea{
+              left: 160px;
+            }
+            .statmentarea{
+              bottom: 120px;
+            }
+          }
+
+    </style>
+<div id="live2dcanvashover"></div>
+
+
+<!--
+<div class="statmentarea"><div class="statmentsbox" style="display: block;">猜猜我叫什么嘿嘿</div></div>
+-->
+<div class="statmentarea"></div>
 
 <!--影集界面需要的资源-->
 
